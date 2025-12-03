@@ -1,0 +1,77 @@
+📘 Project Details
+
+Advanced Time Series Forecasting with Prophet and Hyperparameter Optimization
+
+This project challenges advanced students to implement a robust time series forecasting pipeline using Facebook's Prophet model, focusing heavily on rigorous hyperparameter tuning and uncertainty quantification. Students will utilize a complex, real-world dataset (e.g., historical stock prices, high-frequency sensor data, or detailed energy consumption logs) to ensure the complexities of seasonality, holidays, and trend changes are adequately addressed.
+
+The core of the project involves moving beyond default Prophet settings by employing advanced optimization techniques, such as Bayesian Optimization (using libraries like Hyperopt or Optuna), to find the optimal model configuration that minimizes forecasting error (e.g., RMSE or MAPE) on a held-out validation set.
+
+Furthermore, students must critically analyze the model's prediction intervals and discuss the implications of uncertainty in a business context.
+
+The final deliverable requires a comprehensive, text-based analysis detailing:
+
+The tuning process
+
+The rationale behind the chosen hyperparameters
+
+A comparison of the optimized model's performance against a baseline (like ARIMA or simple exponential smoothing)
+
+Production-quality code, including version control best practices and clear documentation (docstrings), is mandatory.
+
+🔵 Tasks to Complete
+
+Acquire or generate a complex time series dataset
+
+Minimum 3 years of daily data
+
+Must exhibit multiple seasonalities (weekly/yearly) and potential breakpoints
+
+Document the data source and preprocessing steps
+
+Implement a cross-validation strategy
+
+Use time series–appropriate methods (e.g., rolling origin cross-validation)
+
+Evaluate model performance robustly
+
+Develop a hyperparameter optimization script
+
+Use Optuna or Hyperopt
+
+Tune Prophet’s key parameters (seasonality strength, changepoint prior scale, holidays)
+
+Define a clear objective function based on a chosen time series metric
+
+Train the final optimized Prophet model
+
+Generate forecasts for the next 90 days
+
+Include both point predictions and uncertainty intervals
+
+Write detailed inline documentation
+
+Use docstrings for all functions and classes in the final Python script
+
+🔵 Expected Deliverables
+
+Complete Python code
+
+Covers data loading, preprocessing, optimization, training, and forecasting
+
+Provided entirely as text
+
+Text-based report
+
+Describes dataset characteristics, hyperparameter search space, optimization algorithm used, and final best hyperparameters
+
+Comparative analysis
+
+Summarizes performance of optimized Prophet model vs. baseline (e.g., ARIMA)
+
+Includes metrics like RMSE/MAPE
+
+Forecast interpretation
+
+Written explanation of the 90-day forecast
+
+Focus on meaning and reliability of prediction intervals
